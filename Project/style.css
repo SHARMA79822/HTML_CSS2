@@ -1,0 +1,618 @@
+body
+{
+	background-image:url(bg.jpg);
+	background-size: 100% 800px;
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+}
+
+nav
+{
+	width: 100%;
+	height: 275px;
+	background-color:rgba(0,0,0,0.8);
+	float: left;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+#Welcome
+{
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#menu
+{
+	width: 750px;
+	height: 70px;	
+	box-sizing: border-box;
+	margin: 10px;
+}
+
+#nav-item
+{
+	width: 20%;
+	height: 70px;
+	border-width: 2.5px;
+	border-style: solid;
+	border-color: white;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+/* Start Home Page Section Coding*/
+
+#home-section
+{
+	width: 800px;
+	height: 437px;
+	float: right;
+	box-sizing: border-box;
+	background-image: url(section-bg.png);
+	padding: 5px;
+}
+
+#logo
+{
+	width: 180px;
+	height: 180px;
+	box-sizing: border-box;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 150px;
+	margin-top: 120px;
+}
+
+#logo-text
+{
+	margin:0;
+	padding: 0;
+	font-family: verdana;
+	color: white;
+	font-size: 160px;
+	margin-top: -20px;
+}
+
+#domain
+{
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: verdana;
+	font-size: 35px;
+	text-align: center;
+	margin-left: 145px;
+}
+
+/* End Home Page Section Coding*/
+
+
+
+
+/* Start login Page nav Coding*/
+
+
+#domain-name
+{
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-family: sans-serif;
+
+}
+
+/* End login Page nav Coding*/
+
+
+
+/* Start login Page  section Coding*/
+#login-fieldset
+{
+	width: 350px;
+	height: 260px;
+	color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 250px;
+	padding: 40px;
+
+}
+
+#login-section
+{	
+	width: 800px;
+	height: 437px;
+	float: right;
+	box-sizing: border-box;
+	background-image: url(section-bg.png);
+	padding: 40px;
+}
+
+#login
+{
+	font-family: century gothic;
+	color: white;
+	font-size: 45px;
+	font-weight: bold;
+
+}
+
+#login-form
+{
+	font-family: century gothic;
+	color: white;
+	font-size: 22px;
+
+}
+
+
+#username
+{
+	width: 100%;
+	height: 30px;
+	background-color: inherit;
+	border:	none;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	margin-top: 10px;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 12px;
+
+}
+
+#password
+{
+	width: 100%;
+	height: 30px;
+	background-color: inherit;
+	border:	none;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	margin-top: 10px;
+	color: white;
+	font-size: 18px;
+
+}
+
+#login-btm
+{
+	height: 35px;
+	width: 120px;
+	float: right;
+	margin-top: 35px;
+	background-color: inherit;
+	border:	none;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	color: white;
+	font-family: century gothic;
+	font-size: 18px;
+
+}
+
+/* End login Page section Coding*/
+
+
+
+
+
+/* Start sign up Page section Coding*/
+
+#sign-fieldset{
+	width: 350px;
+	height: 300px;
+	color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 250px;
+	padding: 40px;
+	margin-top: -20px;
+
+}
+
+#sign
+{
+	font-family: century gothic;
+	color: white;
+	font-size: 22px;
+
+}
+#sign-up
+{
+	width: 100%;
+	height: 25px;
+	background-color: inherit;
+	border:	none;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	margin-top: 2px;
+	color: white;
+	font-size: 15px;
+
+}
+
+#sign-up-btm
+{	height: 35px;
+	width: 120px;
+	float: right;
+	margin-top: 20px;
+	background-color: inherit;
+	border:	none;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	color: white;
+	font-family: century gothic;
+	font-size: 18px;
+	margin-right: -5px;
+
+
+}
+
+/* End sign up Page section Coding*/
+
+/* Start Contect Page section Coding*/
+
+#contact-fieldset
+{
+	width: 350px;
+	height: 200px;
+	color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 250px;
+	padding: 40px;
+	margin-top: 20px;
+
+}
+
+
+#contact-page
+{
+	font-family: century gothic;
+	color: white;
+	font-size: 22px;
+}
+
+
+#address{
+	font-family: century gothic;
+	color: white;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 40px;
+
+}
+
+/* End Contect Page section Coding*/
+
+
+/* Start Product Page section Coding*/
+
+#product-section{
+	width: 100%;
+	height: 2820px;
+	
+	float: left;
+	box-sizing: border-box;
+}
+
+#brand
+{
+	width: 100%;
+	height: 370px;
+	background-color: rgba(255,255,255,0.8);
+	float: left;
+	box-sizing: border-box;
+	margin-top: -3px;
+}
+
+#brand-hadding
+{
+	text-align: center;
+	font-family: century gothic;
+	box-sizing: border-box;
+	font-size: 40px;	
+}
+
+
+#brand-pic	
+{
+	width: 200px;
+	height: 80px;
+	float: left;
+	box-sizing: border-box;
+	border-width: 3px;
+	border-style: solid;
+	border-color: black;
+	margin: 43px;
+	margin-top: 10px;
+	background-color: white;
+	
+
+}
+
+#search
+{
+	width: 60%;
+	height: 50px;
+	float: left;
+	box-sizing: border-box;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20px;
+	border: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	font-size: 20px;
+	padding: 10px;
+	background-image: url(search.png);
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#zest-products
+{
+	width: 100%;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.8);
+
+
+}
+
+#zest
+{
+	text-align: center;
+	color: white;
+	font-family: century gothic;
+	font-size: 35px;
+}
+
+#zest-products-pic
+{
+	width: 250px;
+	height: 270px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+	margin-top: 10px;
+
+}
+
+
+
+
+
+#dove-products
+{
+	width: 100%;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.8);
+
+
+}
+
+#dove
+{
+	text-align: center;
+	color: white;
+	font-family: century gothic;
+	font-size: 35px;
+	margin-top: -20px;
+}
+
+#dove-products-pic
+{
+	width: 250px;
+	height: 270px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+	margin-top: 10px;
+	
+
+}
+
+
+
+
+#beauty-products
+{
+	width: 100%;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.8);
+
+
+}
+
+#beauty
+{
+	text-align: center;
+	color: white;
+	font-family: century gothic;
+	font-size: 35px;
+	margin-top: -20px;
+}
+
+#beauty-products-pic
+{
+	width: 250px;
+	height: 270px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+	margin-top: 10px;
+
+}
+
+
+
+
+#care-products
+{
+	width: 100%;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.8);
+
+
+}
+
+#care
+{
+	text-align: center;
+	color: white;
+	font-family: century gothic;
+	font-size: 35px;
+	margin-top: -20px;
+}
+
+#care-products-pic
+{
+	width: 250px;
+	height: 270px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+	margin-top: 10px;
+	
+}
+
+
+
+
+
+
+#amica-products
+{
+	width: 100%;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.8);
+
+
+}
+
+#amica
+{
+	text-align: center;
+	color: white;
+	font-family: century gothic;
+	font-size: 35px;
+	margin-top: -20px;
+}
+
+#amica-products-pic
+{
+	width: 250px;
+	height: 330px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+	margin-top: 10px;
+	color: white;
+	
+}
+
+
+#products-name
+{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	margin-top: 8px;
+	font-size: 20px;
+
+}
+
+
+#rs
+{
+	color: white;
+	margin: 0;
+	padding: 0;
+	margin-top: 8;
+	font-size: 20px;
+	float: left;
+}
+
+#buy
+{
+	color: white;
+	margin: 0;
+	padding: 0;
+	margin-top: 8;
+	font-size: 20px;
+	float: right;
+}
+
+
+
+
+
+/* End Product Page section Coding*/
+
+
+
+
+footer
+{
+	width: 100%;
+	height: 70px;
+	box-sizing: border-box;
+	float: left;
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+
+}
